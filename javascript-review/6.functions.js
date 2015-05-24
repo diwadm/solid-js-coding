@@ -1,9 +1,10 @@
 // function declaration gets hoisted.
-funcDeclare();
+funcDeclare('Hello world');
 
 // A function declaration
-function funcDeclare() {
+function funcDeclare(shout) {
   console.log('funcDeclare()');
+  console.log(shout);
 }
 
 // A functional expression
